@@ -10,21 +10,16 @@ h1 {
 }/*GU:Troque a cor*/
 
 header {
-    transition: top 0.3s ease;
-    color: #333;
-    background: #333;
-    right: 0px;
-    left: 0px;
-    top: 0px;
-    position: fixed;
-    text-align: center;
-    padding: 15px;
-    z-index: 1000px;
+  background: #333;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
 .content {
-    margin-top:70px;
-    padding: 20px;
+  height: 2000px; /* só para ter scroll */
 }
-
 

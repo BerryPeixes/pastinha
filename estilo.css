@@ -1,0 +1,20 @@
+.base {
+    background-color: rgb(192, 209, 147);
+    font:"Fire sans", sans-serif;
+    text-align: center;
+}/*GU:Troque a fonte*/
+
+.destaque {
+    display: flex;
+    background-color: rgb(0, 248, 215);
+    text-align: center;
+    width: 150px;
+    
+}
+
+/*flex para na esquerda*/
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
